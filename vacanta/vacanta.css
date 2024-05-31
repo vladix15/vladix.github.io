@@ -1,0 +1,59 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(9, 183, 183);
+}
+
+body{
+    background-color: rgb(255, 225, 0);
+}
+
+.destinatie{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 3px solid orangered;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: none;
+}
+
+.destinatie h3{
+    font-size: 30px;
+    color: rgb(25, 119, 10);
+}
+
+.destinatie p{
+    font-size: 20px;
+    color: rgb(5, 5, 151);
+}
+
+.left, .right{
+    font-size: 50px;
+    color: rgb(3, 197, 211);
+    cursor: pointer;
+}
+
+.left:hover, .right:hover{
+    background-color: beige;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.destinatii{
+    position: relative;
+}
+
+.left{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.right{
+    position: absolute;
+    top:35%;
+    right: 20%; 
+}

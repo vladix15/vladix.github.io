@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(228, 72, 72);
+}
+
+.rand img{
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.rand img:hover{
+    opacity: 1;
+}
+
+.rand{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.felicitare{
+    display: flex;
+    gap: 100px;
+}
+
+.felicitare p{
+    width: 40%;
+}
+
+.felicitare div{
+    width: 40%;
+}
+
+.felicitare img{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    
+}
+
+.continut{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 50px;
+    border: 5px solid purple;
+    padding: 15px;
+    position: relative;
+    height: 300px;
+}
+
+span{
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
